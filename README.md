@@ -34,15 +34,14 @@ Depending on the project, the following tools and technologies may be used:
 - Matplotlib
 - Seaborn
 - Scikit-learn
-### -> SQL
-     - MySQL
-     - SQL Server
-###  -> Business Intelligence Tools
-Power BI
-Tableau
-Spreadsheet Tools
-Microsoft Excel
-Google Sheets
-Development Environment
-Jupyter Notebook
-VS Code
+### SQL
+- MySQL
+- SQL Server
+### Business Intelligence Tools
+- Power BI
+### Spreadsheet Tools
+- Microsoft Excel
+- Google Sheets
+### Development Environment
+- Jupyter Notebook
+- VS Code
