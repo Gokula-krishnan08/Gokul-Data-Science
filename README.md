@@ -73,3 +73,29 @@ Through these projects, I aim to:
 - Improve analytical and problem-solving skills.
 - Demonstrate proficiency in modern data analytics tools.
 - Build a portfolio that reflects practical industry-oriented experience.
+
+## Getting Started
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/your-username/data-analytics-projects.git
+```
+
+### Navigate to the Project Directory
+
+```bash
+cd data-analytics-projects
+```
+
+### Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### Explore the Projects
+
+Open the notebooks, dashboards, or reports within each project folder to review the analysis and findings.
+
+---
