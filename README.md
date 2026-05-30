@@ -47,20 +47,20 @@ Depending on the project, the following tools and technologies may be used:
 - VS Code
 
 ## Repository Structure
-Data-Analytics-Projects/
-│
-├── Project-1/
-│   ├── Dataset/
-│   ├── Notebooks/
-│   ├── Visualizations/
-│   ├── Reports/
-│   └── README.md
-│
-├── Project-2/
-│   ├── Dataset/
-│   ├── Notebooks/
-│   ├── Visualizations/
-│   ├── Reports/
-│   └── README.md
-│
-└── README.md
+    Data-Analytics-Projects/
+    │
+    ├── Project-1/
+    │   ├── Dataset/
+    │   ├── Notebooks/
+    │   ├── Visualizations/
+    │   ├── Reports/
+    │   └── README.md
+    │
+    ├── Project-2/
+    │   ├── Dataset/
+    │   ├── Notebooks/
+    │   ├── Visualizations/
+    │   ├── Reports/
+    │   └── README.md
+    │
+    └── README.md
