@@ -65,7 +65,7 @@ Depending on the project, the following tools and technologies may be used:
     │
     └── README.md
 
-##Key Outcomes
+## Key Outcomes
 
 Through these projects, I aim to:
 
