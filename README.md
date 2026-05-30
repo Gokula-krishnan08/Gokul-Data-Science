@@ -28,12 +28,12 @@ The projects included here cover various aspects of the data analytics lifecycle
 
 Depending on the project, the following tools and technologies may be used:
 
-### -> Python
-    - Pandas
-    - NumPy
-    - Matplotlib
-     - Seaborn
-     - Scikit-learn
+### Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
 ### -> SQL
      - MySQL
      - SQL Server
