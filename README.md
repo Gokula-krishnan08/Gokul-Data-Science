@@ -23,3 +23,26 @@ The projects included here cover various aspects of the data analytics lifecycle
 - SQL Querying
 - Python for Data Analysis
 - Spreadsheet-Based Analysis
+
+## Tools and Technologies
+
+Depending on the project, the following tools and technologies may be used:
+
+### -> Python
+    - Pandas
+    - NumPy
+    - Matplotlib
+     - Seaborn
+     - Scikit-learn
+### -> SQL
+     - MySQL
+     - SQL Server
+###  -> Business Intelligence Tools
+Power BI
+Tableau
+Spreadsheet Tools
+Microsoft Excel
+Google Sheets
+Development Environment
+Jupyter Notebook
+VS Code
