@@ -1,0 +1,294 @@
+
+
+			MNIST classifier - CNN 
+
+Model - 1:
+
+	input : 1 , hidden : 10 , output : 10
+	
+	- Structure :
+
+		- CNN block - 1:
+			- Conv2d (in : input , out : hidden , kernel : 3 , stride : 1 , padding : 1)
+			- ReLU
+			- Conv2d(in : hidden , out , hidden , kernel : 3 , stride : 1 , padding : 1)
+			- ReLU
+			- Maxpool(2)
+
+		- CNN block - 2:
+			- Conv2d(in : hidden , out : hidden , kernel : 3 , stride : 1 , padding : 1)
+			- ReLU
+			- Conv2d(in : hidden , out : hidden , kernel : 3 , stride : 1 , padding : 1)
+			- ReLU
+			- Maxpool(2)
+
+		- classifier :
+			- Flatten
+			- Linear(in : hidden * 7 * 7 , out: output_shape)
+
+
+	- Loss function : Cross Entropy Loss 
+	- Optimizer : SGD (lr = 0.1)
+
+	- Model loss : 0.084
+	- Model accuracy : 97.45
+
+
+Model - 2:
+
+	input : 1 , hidden : 15 , output : 10
+	
+	- Structure :
+
+		- CNN block - 1:
+			- Conv2d (in : input , out : hidden , kernel : 3 , stride : 1 , padding : 1)
+			- ReLU
+			- Conv2d(in : hidden , out , hidden , kernel : 3 , stride : 1 , padding : 1)
+			- ReLU
+			- Maxpool(2)
+
+		- CNN block - 2:
+			- Conv2d(in : hidden , out : hidden , kernel : 3 , stride : 1 , padding : 1)
+			- ReLU
+			- Conv2d(in : hidden , out : hidden , kernel : 3 , stride : 1 , padding : 1)
+			- ReLU
+			- Maxpool(2)
+
+		- classifier :
+			- Flatten
+			- Linear(in : hidden * 7 * 7 , out: output_shape)
+
+
+	- Loss function : Cross Entropy Loss 
+	- Optimizer : SGD (lr = 0.1)
+
+	- Model loss : 0.075
+	- Model accuracy : 97.68
+
+
+Model - 3:
+
+	input : 1 , hidden : 10 , output : 10
+	
+	- Structure :
+
+		- CNN block - 1:
+			- Conv2d (in : input , out : hidden , kernel : 3 , stride : 1 , padding : 1)
+			- ReLU
+			- Conv2d(in : hidden , out : hidden , kernel : 3 , stride : 1 , padding : 1)
+			- ReLU
+			- Maxpool(2)
+
+		- CNN block - 2:
+			- Conv2d(in : hidden , out : hidden , kernel : 3 , stride : 1 , padding : 1)
+			- ReLU
+			- Conv2d(in : hidden , out : hidden , kernel : 3 , stride : 1 , padding : 1)
+			- ReLU
+			- Maxpool(2)
+
+		- CNN block - 3:
+			- Conv2d (in : hidden , out : hidden , kernel : 3 , stride : 1 , padding : 1)
+			- ReLU
+			- Conv2d(in : hidden , out : hidden , kernel : 3 , stride : 1 , padding : 1)
+			- ReLU
+			- Maxpool(2)
+
+		- classifier :
+			- Flatten
+			- Linear(in : hidden * 3 * 3 , out: output_shape)
+
+
+
+	- Loss function : Cross Entropy Loss 
+	- Optimizer : SGD (lr = 0.1)
+
+	- Model loss : 0.097
+	- Model accuracy : 96.91
+
+
+Model - 4:
+
+	input : 1 , hidden : 32 , output : 10
+	
+	- Structure :
+
+		- CNN block - 1:
+			- Conv2d (in : input , out : hidden , kernel : 3 , stride : 1 , padding : 1)
+			- ReLU
+			- Conv2d(in : hidden , out : hidden , kernel : 3 , stride : 1 , padding : 1)
+			- ReLU
+			- Maxpool(2)
+
+		- CNN block - 2:
+			- Conv2d(in : hidden , out : hidden , kernel : 3 , stride : 1 , padding : 1)
+			- ReLU
+			- Conv2d(in : hidden , out : hidden , kernel : 3 , stride : 1 , padding : 1)
+			- ReLU
+			- Maxpool(2)
+
+		- CNN block - 3:
+			- Conv2d (in : hidden , out : hidden , kernel : 3 , stride : 1 , padding : 1)
+			- ReLU
+			- Conv2d(in : hidden , out : hidden , kernel : 3 , stride : 1 , padding : 1)
+			- ReLU
+			- Maxpool(2)
+
+		- classifier :
+			- Flatten
+			- Linear(in : hidden * 3 * 3 , out: output_shape)
+
+
+
+	- Loss function : Cross Entropy Loss 
+	- Optimizer : SGD (lr = 0.1)
+
+	- Model loss : 0.043
+	- Model accuracy : 98.48
+
+
+
+Model - 5:
+
+	input : 1 , hidden : 32 , output : 10
+	
+	- Structure :
+
+		- CNN block - 1:
+			- Conv2d (in : input , out : hidden , kernel : 3 , stride : 1 , padding : 1)
+			- ReLU
+			- Conv2d(in : hidden , out : hidden , kernel : 3 , stride : 1 , padding : 1)
+			- ReLU
+			- Maxpool(2)
+
+		- CNN block - 2:
+			- Conv2d(in : hidden , out : hidden , kernel : 3 , stride : 1 , padding : 1)
+			- ReLU
+			- Conv2d(in : hidden , out : hidden , kernel : 3 , stride : 1 , padding : 1)
+			- ReLU
+			- Maxpool(2)
+
+		- CNN block - 3:
+			- Conv2d (in : hidden , out : hidden , kernel : 3 , stride : 1 , padding : 1)
+			- ReLU
+			- Conv2d(in : hidden , out : hidden , kernel : 3 , stride : 1 , padding : 1)
+			- ReLU
+			- Maxpool(2)
+
+		- classifier :
+			- Flatten
+			- Linear(in : hidden * 3 * 3 , out: output_shape)
+
+
+
+	- Loss function : Cross Entropy Loss 
+	- Optimizer : Adam (lr = 0.001)
+
+	- Model loss : 0.054
+	- Model accuracy : 98.56
+
+
+
+Model - 6:
+
+	input : 1 , hidden : 32 , output : 10
+	
+	- Structure :
+
+		- CNN block - 1:
+			- Conv2d (in : input , out : hidden , kernel : 3 , stride : 1 , padding : 1)
+			- ReLU
+			- Conv2d(in : hidden , out : hidden , kernel : 3 , stride : 1 , padding : 1)
+			- ReLU
+			- Maxpool(2)
+
+		- CNN block - 2:
+			- Conv2d(in : hidden , out : hidden , kernel : 3 , stride : 1 , padding : 1)
+			- ReLU
+			- Conv2d(in : hidden , out : hidden , kernel : 3 , stride : 1 , padding : 1)
+			- ReLU
+			- Maxpool(2)
+
+		- CNN block - 3:
+			- Conv2d (in : hidden , out : hidden , kernel : 3 , stride : 1 , padding : 1)
+			- ReLU
+			- Conv2d(in : hidden , out : hidden , kernel : 3 , stride : 1 , padding : 1)
+			- ReLU
+			- Maxpool(2)
+
+		- classifier :
+			- Flatten
+			- Linear(in : hidden * 3 * 3 , out: output_shape)
+
+
+
+	- Loss function : Cross Entropy Loss 
+	- Optimizer : Adam (lr = 0.01)
+
+	- Model loss : 2.302
+	- Model accuracy : 10.53
+
+
+
+Model - 7:
+
+	input : 1 , hidden : 32 , output : 10
+	
+	- Structure :
+
+		- CNN block - 1:
+			- Conv2d (in : input , out : hidden , kernel : 3 , stride : 1 , padding : 1)
+			- ReLU
+			- Conv2d(in : hidden , out , hidden , kernel : 3 , stride : 1 , padding : 1)
+			- ReLU
+			- Maxpool(2)
+
+		- CNN block - 2:
+			- Conv2d(in : hidden , out : hidden , kernel : 3 , stride : 1 , padding : 1)
+			- ReLU
+			- Conv2d(in : hidden , out : hidden , kernel : 3 , stride : 1 , padding : 1)
+			- ReLU
+			- Maxpool(2)
+
+		- classifier :
+			- Flatten
+			- Linear(in : hidden * 7 * 7 , out: output_shape)
+
+
+	- Loss function : Cross Entropy Loss 
+	- Optimizer : Adam (lr = 0.1)
+
+	- Model loss : 0.06
+	- Model accuracy : 98.51
+
+
+
+Model - 8:
+
+	input : 1 , hidden : 64 , output : 10
+	
+	- Structure :
+
+		- CNN block - 1:
+			- Conv2d (in : input , out : hidden , kernel : 3 , stride : 1 , padding : 1)
+			- ReLU
+			- Conv2d(in : hidden , out , hidden , kernel : 3 , stride : 1 , padding : 1)
+			- ReLU
+			- Maxpool(2)
+
+		- CNN block - 2:
+			- Conv2d(in : hidden , out : hidden , kernel : 3 , stride : 1 , padding : 1)
+			- ReLU
+			- Conv2d(in : hidden , out : hidden , kernel : 3 , stride : 1 , padding : 1)
+			- ReLU
+			- Maxpool(2)
+
+		- classifier :
+			- Flatten
+			- Linear(in : hidden * 7 * 7 , out: output_shape)
+
+
+	- Loss function : Cross Entropy Loss 
+	- Optimizer : Adam (lr = 0.001)
+
+	- Model loss : 0.06
+	- Model accuracy : 98.39
